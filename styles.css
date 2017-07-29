@@ -1,0 +1,35 @@
+body,h1,h2,h3,h4,h5,h6 {
+   font-family: "Roboto", Arial, Helvetica, sans-serif;
+   text-align: center;
+   margin: 0 auto;
+}
+.dk-search {
+   margin-top: 6px;
+}
+.dk-add {
+   margin-top: 7px;
+}
+/* stars CSS */
+.rating-div form#rating-form {
+   unicode-bidi: bidi-override;
+   direction: rtl;
+}
+.rating-div form#rating-form > a {
+   width: 1.1em;
+   text-decoration: none;
+   font-size: 2.5em;
+}
+.rating-div form#rating-form > a:hover:before,
+.rating-div form#rating-form > a:hover ~ a:before {
+   content: "\2605";
+   position: absolute;
+   color: #e8d003;
+   text-decoration: none;
+}
+.title-div form#title-form {
+   padding:10px;
+}
+p.title-display {
+   font-size: 2.5em;
+   display: inline-block;
+}
